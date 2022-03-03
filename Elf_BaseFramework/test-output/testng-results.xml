@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Home page is displyed]]>
+    </line>
+    <line>
+      <![CDATA[Profile page is displyed]]>
+    </line>
+    <line>
+      <![CDATA[Summary page is displyed]]>
+    </line>
+    <line>
+      <![CDATA[Skills page is displyed]]>
+    </line>
+    <line>
+      <![CDATA[Education page is displyed]]>
+    </line>
+    <line>
+      <![CDATA[Project Details page is displyed]]>
+    </line>
+    <line>
+      <![CDATA[Download Successfully in PDF farmate]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13543" started-at="2022-03-02T15:34:10 IST" finished-at="2022-03-02T15:34:24 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13543" started-at="2022-03-02T15:34:10 IST" finished-at="2022-03-02T15:34:24 IST">
+      <class name="skills.TC_Education_001Test">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:skills.TC_Education_001Test@3043fe0e]" name="openTheBrowser" is-config="true" duration-ms="4248" started-at="2022-03-02T15:34:10 IST" finished-at="2022-03-02T15:34:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:skills.TC_Education_001Test@3043fe0e]" name="navigateToApplication" is-config="true" duration-ms="2089" started-at="2022-03-02T15:34:14 IST" finished-at="2022-03-02T15:34:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method status="PASS" signature="Education()[pri:0, instance:skills.TC_Education_001Test@3043fe0e]" name="Education" duration-ms="6142" started-at="2022-03-02T15:34:17 IST" finished-at="2022-03-02T15:34:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page is displyed]]>
+            </line>
+            <line>
+              <![CDATA[Profile page is displyed]]>
+            </line>
+            <line>
+              <![CDATA[Summary page is displyed]]>
+            </line>
+            <line>
+              <![CDATA[Skills page is displyed]]>
+            </line>
+            <line>
+              <![CDATA[Education page is displyed]]>
+            </line>
+            <line>
+              <![CDATA[Project Details page is displyed]]>
+            </line>
+            <line>
+              <![CDATA[Download Successfully in PDF farmate]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Education -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:skills.TC_Education_001Test@3043fe0e]" name="closeTheBrowser" is-config="true" duration-ms="965" started-at="2022-03-02T15:34:23 IST" finished-at="2022-03-02T15:34:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- skills.TC_Education_001Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
